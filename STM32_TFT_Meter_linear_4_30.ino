@@ -93,7 +93,7 @@ TFT_ILI9163C tft = TFT_ILI9163C(CS, DC, RST);
 //TFT_ILI9341 tft = TFT_ILI9341();       // Invoke custom library
 
 // Custom colours, not in the TFT_ILI9163C library. 
-//
+// Colours are RGB565 - try this site for a colour picker --> http://www.barth-dev.de/online/rgb565-color-picker/
 #define TFT_GREY 0x5AEB
 #define TFT_BLACK 0x0000
 #define TFT_WHITE 0xFFFF
